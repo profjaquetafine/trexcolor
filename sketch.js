@@ -125,8 +125,8 @@ function draw() {
       grupoObstaculos.setVelocityXEach(0);
      grupoDeNuvens.setVelocityXEach(0);
     //define o tempo de vida dos objetos do jogo para que nunca sejam destruídos 
-    grupoObstaculos.setVelocityXEach(-1);
-     grupoDeNuvens.setVelocityXEach(-1);
+    grupoObstaculos.setLifetimeEach(-1);
+     grupoDeNuvens.setLifetimeEach(-1);
     //altera a animação do Trex
       trex.changeAnimation("collided", trex_colidiu);
 
