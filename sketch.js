@@ -132,7 +132,7 @@ function draw() {
 
       
     
-    if(touches.length>0 || keyDown("SPACE")) {      
+    if(touches.length>0 || mousePressedOver(reiniciar)) {      
       reset();
       touches = []
     }
