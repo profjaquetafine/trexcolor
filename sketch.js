@@ -15,26 +15,26 @@ var fimDeJogo, reiniciar;
 
 
 function preload(){
-  somDePulo = loadSound("assets/sounds/jump.wav")
-  somDeColisao = loadSound("assets/sounds/collided.wav")
+  somDePulo = loadSound("jump.wav")
+  somDeColisao = loadSound("collided.wav")
   
-  imagemDeFundo = loadImage("assets/backgroundImg.png")
-  animacaoDeSol = loadImage("assets/sun.png");
+  imagemDeFundo = loadImage("backgroundImg.png")
+  animacaoDeSol = loadImage("sun.png");
   
-  trex_correndo = loadAnimation("assets/trex_2.png","assets/trex_1.png","assets/trex_3.png");
-  trex_colidiu = loadAnimation("assets/trex_collided.png");
+  trex_correndo = loadAnimation("trex_2.png","trex_1.png","trex_3.png");
+  trex_colidiu = loadAnimation("trex_collided.png");
   
-  imagemDoSolo = loadImage("assets/ground.png");
+  imagemDoSolo = loadImage("ground.png");
   
-  imagemDaNuvem = loadImage("assets/cloud.png");
+  imagemDaNuvem = loadImage("cloud.png");
   
-  obstaculo1 = loadImage("assets/obstacle1.png");
-  obstaculo2 = loadImage("assets/obstacle2.png");
-  obstaculo3 = loadImage("assets/obstacle3.png");
-  obstaculo4 = loadImage("assets/obstacle4.png");
+  obstaculo1 = loadImage("obstacle1.png");
+  obstaculo2 = loadImage("obstacle2.png");
+  obstaculo3 = loadImage("obstacle3.png");
+  obstaculo4 = loadImage("obstacle4.png");
   
-  imgFimDeJogo = loadImage("assets/gameOver.png");
-  imgReiniciar = loadImage("assets/restart.png");
+  imgFimDeJogo = loadImage("gameOver.png");
+  imgReiniciar = loadImage("restart.png");
 }
 
 function setup() {
