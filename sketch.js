@@ -96,7 +96,7 @@ function draw() {
     
     if((touches.length > 0 || keyDown("SPACE")) && trex.y  >= height-120) {
       somDePulo.play( )
-      trex.velocityY = -10;
+      trex.velocityY = -15;
       
     }
     
